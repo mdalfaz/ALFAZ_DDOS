@@ -1,5 +1,7 @@
 pkg install python3
+
 pkg install git
+
 rm -rf alfaz_ddos
 
 git clone https://github.com/mdalfaz/alfaz_ddos.git
