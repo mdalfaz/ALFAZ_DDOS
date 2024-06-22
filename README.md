@@ -6,6 +6,7 @@ git clone https://github.com/mdalfaz/alfaz_ddos.git
 
 
 cd alfaz_ddos
+
 ls
 
 python3 setup.py
