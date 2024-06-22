@@ -1105,25 +1105,27 @@ def tools():
     stdout.write("\n")
 ##############################################################################################
 def title():
-    stdout.write("                                                                                          \n")
-    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"██╗  ██╗ █████╗ ███████╗ ██████╗ ██╗  ██╗██╗                 \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██╔══██╗██╔════╝██╔═══██╗██║ ██╔╝██║                 \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"███████║███████║███████╗██║   ██║█████╔╝ ██║                \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██╔══██║██╔══██║╚════██║██║   ██║██╔═██╗ ██║                \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██║  ██║███████║╚██████╔╝██║  ██╗██║                \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝                \n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
+    stdout.write("                                           ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\n")
+    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"| ████████▄  ████████▄   ▄██████▄     ▄████████ | CREATE : ALFAZ    |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███   ▀███ ███   ▀███ ███    ███   ███    ███ |                   |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███   ███    █▀  |                   |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███   ███        |                   |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███ ▀███████████ |                   |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███          ███ |                   |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███   ▄███ ███   ▄███ ███    ███    ▄█    ███ |                   |\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ████████▀  ████████▀   ▀██████▀   ▄████████▀  | BY: ALFAZINFOSEC  | 
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       ADDED NEW METHOD AND BYPASS    "+Fore.LIGHTGREEN_EX  +"              ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://t.me/adfhjktewwyjqk   "+Fore.LIGHTGREEN_EX  +"          ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       YT https:youtube.com/@alfazinfosec   "+Fore.LIGHTGREEN_EX  +"        ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"           ║\n")
 
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"Hasoki"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"alfaz_ddos"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
     command = input()
     if command == "cls" or command == "clear":
         clear()
