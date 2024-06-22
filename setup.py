@@ -1,5 +1,4 @@
-#NE TOKE FREE DILAM
-#EIDA DIA JA KORAR KORIS
+
 import os
 
 print("""
