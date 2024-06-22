@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-# From NV with love
-# Hasoki v1.1
-# All for FREE
+# alfaz
 from os import system, name
 import httpx
 import undetected_chromedriver as webdriver
@@ -166,12 +163,12 @@ method = [
 #socks5resource
 proxyResources = [
     'https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&timeout=10000&country=all',
-    'https://www.proxy-list.download/api/v1/get?type=socks5',
-    'https://www.proxyscan.io/download?type=socks5',
-    'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt',
+    'https://www.proxy-list.download/api/v1/get?type=sock',
+    'https://www.proxyscan.io/download?type=sock',
+    'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/sock.txt',
 ]
-socksFile= "socks5.txt"
-#GET SOCKS
+socksFile= "sock.txt"
+
 def socksCrawler():
     global socksFile, socksResources
     f = open(socksFile,'wb')
