@@ -26,6 +26,10 @@
 
 # python3 ddos2.py
 
+![Screenshot 2024-06-23 115818](https://github.com/mdalfaz/ALFAZ_DDOS/assets/125147223/bfdac383-af99-415a-baed-1ce6fcb421e3)
+
+![Screenshot 2024-06-23 115857](https://github.com/mdalfaz/ALFAZ_DDOS/assets/125147223/910b2761-10b9-42e9-a6de-2628c35efd12)
 
 
+![Screenshot 2024-06-23 120913](https://github.com/mdalfaz/ALFAZ_DDOS/assets/125147223/2aad625e-a580-4202-83ab-69c517ce5444)
 
