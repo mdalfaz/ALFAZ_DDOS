@@ -1109,17 +1109,17 @@ def tools():
 ##############################################################################################
 def title():
     stdout.write("                                                                                          \n")
-    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"██╗  ██╗ █████╗ ███████╗ ██████╗ ██╗  ██╗██╗                 \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██╔══██╗██╔════╝██╔═══██╗██║ ██╔╝██║                 \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"███████║███████║███████╗██║   ██║█████╔╝ ██║                \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██╔══██║██╔══██║╚════██║██║   ██║██╔═██╗ ██║                \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██║  ██║███████║╚██████╔╝██║  ██╗██║                \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝                \n")
+    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"██████  ██████   ██████  ███████                  \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██   ██ ██   ██ ██    ██ ██                      \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██   ██ ██   ██ ██    ██ ███████                 \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██   ██ ██   ██ ██    ██      ██                 \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██████  ██████   ██████  ███████                 \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚════╝  ╚════╝   ╚════╝  ╚═════╝                 \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       ADDED NEW METHOD AND BYPASS    "+Fore.LIGHTGREEN_EX  +"              ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://t.me/adfhjktewwyjqk   "+Fore.LIGHTGREEN_EX  +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://youtube.com/@alfazinfosec   "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"          ║\n")
 
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╚═════════════════════════════════════════════════════╝\n")
@@ -1365,3 +1365,14 @@ if __name__ == '__main__':
         command()
 
                                
+
+
+
+
+██████  ██████   ██████  ███████ 
+██   ██ ██   ██ ██    ██ ██      
+██   ██ ██   ██ ██    ██ ███████ 
+██   ██ ██   ██ ██    ██      ██ 
+██████  ██████   ██████  ███████ 
+                                 
+                                 
