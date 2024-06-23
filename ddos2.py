@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-# From NV with love
-# Hasoki v1.1
-# All for FREE
+#khan**kir*pola copy korte asche ki korbi kor
+#create Alfaz
 from os import system, name
 import httpx
 import undetected_chromedriver as webdriver
@@ -1005,11 +1003,11 @@ def help():
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"layer4   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Show Layer4 Methods                    "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"tools    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Show tools                             "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"credit   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Show credit                            "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"exit     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Exit HASOKI DDoS                       "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"exit     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Exit ALFAZ DDoS                       "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╠═════════════════════════════════════════════════════╣\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"THANK    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Thanks for using HASOKI.               "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"THANK    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Thanks for using Alfaz DDOS.               "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"YOU♥     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Plz star project :)                    "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"github   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" github.com/cutipu/HASOKI               "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"github   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" https://github.com/mdalfaz/alfaz_ddos              "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
@@ -1020,11 +1018,11 @@ def infoattack():
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"layer4   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Show Layer4 Methods                    "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"tools    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Show tools                             "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"credit   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Show credit                            "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"exit     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Exit HASOKI DDoS                       "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"exit     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Exit ALFAZ DDoS                       "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╠═════════════════════════════════════════════════════╣\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"THANK    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Thanks for using HASOKI.                "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"THANK    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Thanks for using ALFAZ DDOS.                "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"YOU♥     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" Plz star project :)                    "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"github   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" github.com/cutipu/HASOKI               "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;255;20;147m• "+Fore.LIGHTWHITE_EX+"github   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTWHITE_EX+" https://github.com/mdalfaz/alfaz_ddos               "+Fore.LIGHTGREEN_EX+"║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
@@ -1117,7 +1115,7 @@ def title():
     stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚════╝  ╚════╝   ╚════╝  ╚═════╝                 \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       DDoS Tool Layer7-------The Tools Maked By ALFAZ           "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Dont Use GOV Site Is Just Education Purpose,⚠️    "+Fore.LIGHTGREEN_EX  +"              ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://youtube.com/@alfazinfosec   "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"          ║\n")
@@ -1126,7 +1124,7 @@ def title():
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"Hasoki"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"alfaz_ddos"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
     command = input()
     if command == "cls" or command == "clear":
         clear()
@@ -1328,7 +1326,7 @@ def func():
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxcfb      "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack with proxy\n")
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfpro      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (request)\n")
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfsoc      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (socket)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"sky        "+Fore.RED+": "+Fore.WHITE+"HTTPS Flood and bypass for CF NoSec, DDoS Guard Free and vShield with sock5\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"attack        "+Fore.RED+": "+Fore.WHITE+"HTTPS Flood and bypass for CF NoSec, DDoS Guard Free and vShield with sock5\n")
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"stellar    "+Fore.RED+": "+Fore.WHITE+"HTTPS Sky method without proxies\n")
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"bypass     "+Fore.RED+": "+Fore.WHITE+"HTTPS method without proxies  bypass Google Shield, VShield\n")
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"raw        "+Fore.RED+": "+Fore.WHITE+"Request attack\n")
@@ -1365,14 +1363,3 @@ if __name__ == '__main__':
         command()
 
                                
-
-
-
-
-██████  ██████   ██████  ███████ 
-██   ██ ██   ██ ██    ██ ██      
-██   ██ ██   ██ ██    ██ ███████ 
-██   ██ ██   ██ ██    ██      ██ 
-██████  ██████   ██████  ███████ 
-                                 
-                                 
