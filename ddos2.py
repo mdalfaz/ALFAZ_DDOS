@@ -1118,7 +1118,7 @@ def title():
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       ADDED NEW METHOD AND BYPASS    "+Fore.LIGHTGREEN_EX  +"              ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Dont Use GOV Site Is Just Education Purpose,⚠️    "+Fore.LIGHTGREEN_EX  +"              ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://youtube.com/@alfazinfosec   "+Fore.LIGHTGREEN_EX  +"          ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"          ║\n")
 
