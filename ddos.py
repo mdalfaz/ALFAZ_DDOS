@@ -1,6 +1,6 @@
 #ENCODED BY : ALFAZ
 #YOUTUBE    : @alfazinfosec
-#bokacoda code copy korbi kor but credit diye dis
+#bokacoda code copy korbi kor but credit diye dis kintu
 #This Tool Created by Alfaz
 
 try:
